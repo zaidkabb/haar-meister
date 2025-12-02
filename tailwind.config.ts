@@ -57,6 +57,15 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        gold: "hsl(var(--gold))",
+        "gold-dark": "hsl(var(--gold-dark))",
+        "dark-bg": "hsl(var(--dark-bg))",
+        "dark-surface": "hsl(var(--dark-surface))",
+        "dark-elevated": "hsl(var(--dark-elevated))",
+      },
+      fontFamily: {
+        serif: ['Crimson Pro', 'serif'],
+        sans: ['Inter', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
