@@ -51,12 +51,6 @@ const Navigation = () => {
               </a>
             ))}
             
-            <a
-              href="tel:+4930123456789"
-              className="px-6 py-2.5 bg-primary text-primary-foreground rounded-full text-sm font-medium hover:bg-primary/90 transition-colors"
-            >
-              Termin buchen
-            </a>
           </div>
           
           {/* Mobile Menu Button */}
@@ -89,12 +83,6 @@ const Navigation = () => {
               </a>
             ))}
             
-            <a
-              href="tel:+4930123456789"
-              className="block w-full px-6 py-3 bg-primary text-primary-foreground rounded-full text-sm font-medium text-center hover:bg-primary/90 transition-colors"
-            >
-              Termin buchen
-            </a>
           </div>
         </div>
       )}
