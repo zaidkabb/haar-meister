@@ -8,6 +8,7 @@ import CTA from "@/components/CTA";
 import MobileContact from "@/components/MobileContact";
 import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
+import ChatbotButton from "@/components/ChatbotButton";
 
 const Index = () => {
   return (
@@ -30,6 +31,8 @@ const Index = () => {
           <Sidebar />
         </div>
       </div>
+      
+      <ChatbotButton />
     </div>
   );
 };
