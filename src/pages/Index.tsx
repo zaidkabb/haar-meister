@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
@@ -9,8 +10,11 @@ import MobileContact from "@/components/MobileContact";
 import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
 import ChatbotButton from "@/components/ChatbotButton";
+import ChatbotModal from "@/components/ChatbotModal";
 
 const Index = () => {
+  const [isChatOpen, setIsChatOpen] = useState(false);
+
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
@@ -32,7 +36,8 @@ const Index = () => {
         </div>
       </div>
       
-      <ChatbotButton />
+      <ChatbotButton onClick={() => setIsChatOpen(true)} />
+      <ChatbotModal isOpen={isChatOpen} onClose={() => setIsChatOpen(false)} />
     </div>
   );
 };
